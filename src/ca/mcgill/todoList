@@ -1,0 +1,12 @@
+make guideSeq and offtarget classes have a parent. organize tables and classes
+GAGTCCGAGCAGAAGAAGAAGGG is a guide rna which is assayed in 4 paper, is the oftargets different? (select distinct genome, guideSeq from offTargets) yet, there are more
+
+
+
+
+
+
+treat PAM as normal sequence
+seperate mismatch positions
+there may be error in data
+you may need to consider more dimensions
