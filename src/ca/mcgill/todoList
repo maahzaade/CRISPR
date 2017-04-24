@@ -9,4 +9,5 @@ GAGTCCGAGCAGAAGAAGAAGGG is a guide rna which is assayed in 4 paper, is the oftar
 treat PAM as normal sequence
 seperate mismatch positions
 there may be error in data
-you may need to consider more dimensions
+you may need to consider more dimensions(crop-it)
+calculate all possible 23-mer similarity and consider how they are in relation with minimum similarity

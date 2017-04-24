@@ -4,10 +4,10 @@ public class Main {
 
     public static void main(String[] args) {
 
-        String sampleSeq = "TCCTGACAATCGATAGGTACCTG";
+        String sampleSeq = "CGGGTGGATCACCTGAGGTCAGG";
         Sequence sampleSequence = new Sequence(sampleSeq);
 
-        String guideSeq = "GAATCCTAAAAACTCTGCTTCGG";
+        String guideSeq = "CCCTGTGTCTCTGGATGGATGGG";
         Sequence guideSequence = new Sequence(guideSeq);
 
         SequenceHandler sequenceHandler = new SequenceHandler(guideSequence, sampleSequence);

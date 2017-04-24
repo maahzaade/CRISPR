@@ -68,6 +68,9 @@ public class DBModification {
                 oldGuideRna = newGuideRna;
 
             }
+            assay.setGuideSeq(oldGuideRna);
+            assay.setOffTargets(offTargets);
+            assays.add(Handler.preprocessAssay(assay));
         } catch (SQLException e) {
             e.printStackTrace();
         }
